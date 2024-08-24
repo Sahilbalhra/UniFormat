@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/navbar";
 import { Toaster } from "@/components/ui/toaster";
-import GA from "@/components/GA";
+// import GA from "@/components/GA";
 import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <GA GA_MEASUREMENT_ID="G-52GQ441X7H" />
+      {/* <GA GA_MEASUREMENT_ID="G-52GQ441X7H" /> */}
       <meta
         name="google-site-verification"
         content="V8lmEvFOdYBlChgR6pYABBZBhI1EFnPb1YuxTTdHXMU"
